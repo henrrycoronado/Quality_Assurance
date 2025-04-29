@@ -1,0 +1,89 @@
+13:48:38.026 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+13:48:39.378 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:48:39.875 [main] DEBUG com.intuit.karate - request:
+1 > POST https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 141
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+{"id":2005,"category":{"id":1,"name":"perro"},"name":"PJ","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
+
+13:48:41.882 [main] DEBUG com.intuit.karate - response time in milliseconds: 2001
+1 < 200
+1 < Date: Tue, 29 Apr 2025 17:48:43 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":2005,"category":{"id":1,"name":"perro"},"name":"PJ","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
+
+13:48:42.628 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:48:42.648 [main] DEBUG com.intuit.karate - request:
+1 > GET https://petstore.swagger.io/v2/pet/2005
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:48:43.282 [main] DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 200
+1 < Date: Tue, 29 Apr 2025 17:48:44 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":2005,"category":{"id":1,"name":"perro"},"name":"PJ","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
+
+13:48:43.378 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:48:43.382 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://petstore.swagger.io/v2/pet
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 140
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+{"id":2005,"category":{"id":1,"name":"gato"},"name":"JP","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
+
+13:48:44.010 [main] DEBUG com.intuit.karate - response time in milliseconds: 627
+1 < 200
+1 < Date: Tue, 29 Apr 2025 17:48:45 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"id":2005,"category":{"id":1,"name":"gato"},"name":"JP","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
+
+13:48:44.082 [main] INFO  com.intuit.karate - karate.env system property was: null 
+13:48:44.087 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://petstore.swagger.io/v2/pet/2005
+1 > Host: petstore.swagger.io
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 > Accept-Encoding: gzip,deflate
+
+
+13:48:44.718 [main] DEBUG com.intuit.karate - response time in milliseconds: 630
+1 < 200
+1 < Date: Tue, 29 Apr 2025 17:48:46 GMT
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Access-Control-Allow-Origin: *
+1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 < Server: Jetty(9.2.9.v20150224)
+{"code":200,"type":"unknown","message":"2005"}
+
