@@ -1,4 +1,4 @@
-Feature: Obtener mascota
+Feature: Eliminar mascota
   Background:
     * url baseUrl
     * def petId = 2005

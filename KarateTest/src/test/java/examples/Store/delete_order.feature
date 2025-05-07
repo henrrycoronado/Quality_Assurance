@@ -1,8 +1,8 @@
-Feature: Eliminar mascota
+Feature: Eliminar orden
   Background:
     * url baseUrl
-    * def petId = 2005
+    * def orderId = 10
   Scenario:
-    Given path 'pet', petId
+    Given path 'store/order', orderId
     When method DELETE
     Then status 200

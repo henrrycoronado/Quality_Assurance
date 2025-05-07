@@ -1,4 +1,4 @@
-Feature: crear mascota feature
+Feature: Actualizar mascota
   Background:
     * url baseUrl
     * def petId = 2005

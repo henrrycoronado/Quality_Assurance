@@ -26,7 +26,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 });
 </script>
 
-    <title>examples.PetStore.delete_pet</title>
+    <title>examples.Store.get_inventary</title>
   </head>
   <body>
     <div id="root-container">
@@ -49,13 +49,13 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
     <div>Scenarios</div>
   </div>
   <div id="nav-date">
-    <div>2025-05-06 02:11:18 p. m.</div>
+    <div>2025-05-06 02:11:21 p. m.</div>
   </div>
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:5]"><span>[1:5]</span> <span></span></a>
+            <a href="#[1:4]"><span>[1:4]</span> <span></span></a>
           </div>
         </div>
       </div>
@@ -64,34 +64,34 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">examples/PetStore/delete_pet.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">Eliminar mascota</span>
+          <span class="feature-path">examples/Store/get_inventary.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Obtener Inventario</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
-          <div class="scenario-heading" id="[1:5]">
+          <div class="scenario-heading" id="[1:4]">
             <div class="heading-container">
               <div class="scenario-tags">
                 
               </div>
               <div class="scenario-keyword">
-                Scenario: <span>[1:5]</span>
+                Scenario: <span>[1:4]</span>
                 <span class="scenario-name"></span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>614</span>
+              <span>ms:</span>&nbsp;<span>585</span>
             </div>
           </div>
           <div class="step-row">
-            <div class="step-container" id="[1:5]bg">
+            <div class="step-container" id="[1:4]bg">
               <div class="step-ref bg-step">&gt;&gt;</div>
               <div class="step-cell passed">Background:</div>
             </div>
             <div class="time-cell passed"></div>
           </div>
-          <div data-parent="[1:5]bg"><div>
+          <div data-parent="[1:4]bg"><div>
   
 
   
@@ -113,27 +113,27 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
 
   
 
-  <div class="preformatted" data-parent="0.3">14:11:17.677 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.3">14:11:20.445 karate.env system property was: null 
 </div>   
 
   
 
 </div>
 </div>
-          <div data-parent="[1:5]bg"><div>
+          <div><div>
   
 
   
 
   <div class="step-row">
-    <div class="step-container" id="0.4">
-      <div class="step-ref bg-step">4</div>
+    <div class="step-container" id="0.5">
+      <div class="step-ref passed">5</div>
       
       <div class="step-cell passed">
-        <span>*</span>&nbsp;<span>def petId = 2005</span>
+        <span>Given</span>&nbsp;<span>path &#39;store/inventory&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -158,10 +158,58 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
       <div class="step-ref passed">6</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;pet&#39;, petId</span>
+        <span>When</span>&nbsp;<span>method GET</span>
       </div>
     </div>
-    <div class="time-cell passed">8</div>
+    <div class="time-cell passed">584</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.6">14:11:20.448 request:
+1 &gt; GET https://petstore.swagger.io/v2/store/inventory
+1 &gt; Host: petstore.swagger.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+14:11:21.031 response time in milliseconds: 579
+1 &lt; 200
+1 &lt; Date: Tue, 06 May 2025 18:11:22 GMT
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+1 &lt; Server: Jetty(9.2.9.v20150224)
+{&quot;totvs&quot;:2,&quot;sold&quot;:19,&quot;string&quot;:584,&quot;unavailable&quot;:1,&quot;pending&quot;:11,&quot;available&quot;:294,&quot;weisskeiner1&quot;:1,&quot;packing&quot;:1,&quot;utique&quot;:1,&quot;comminor&quot;:1,&quot;peric&quot;:16,&quot;1&quot;:1,&quot;Sold&quot;:1,&quot;invalid_status&quot;:1,&quot;fdghbdfghgdfhfgdhdfg&quot;:2}
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref passed">7</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -182,62 +230,14 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   
 
   <div class="step-row">
-    <div class="step-container" id="0.7">
-      <div class="step-ref passed">7</div>
-      
-      <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method DELETE</span>
-      </div>
-    </div>
-    <div class="time-cell passed">604</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.7">14:11:17.690 request:
-1 &gt; DELETE https://petstore.swagger.io/v2/pet/2005
-1 &gt; Host: petstore.swagger.io
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 &gt; Accept-Encoding: gzip,deflate
-
-
-14:11:18.278 response time in milliseconds: 588
-1 &lt; 200
-1 &lt; Date: Tue, 06 May 2025 18:11:19 GMT
-1 &lt; Content-Type: application/json
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Connection: keep-alive
-1 &lt; Access-Control-Allow-Origin: *
-1 &lt; Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 &lt; Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 &lt; Server: Jetty(9.2.9.v20150224)
-{&quot;code&quot;:200,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;2005&quot;}
-
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
     <div class="step-container" id="0.8">
       <div class="step-ref passed">8</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>And</span>&nbsp;<span>match response != null</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
