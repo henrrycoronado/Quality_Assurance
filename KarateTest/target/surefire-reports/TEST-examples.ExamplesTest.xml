@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="9.539" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="examples.ExamplesTest" time="10.193" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="BO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\HenrryCoronado\AppData\Local\Temp\surefire12345743823086489115\surefirebooter-20250506141112300_3.jar C:\Users\HenrryCoronado\AppData\Local\Temp\surefire12345743823086489115 2025-05-06T14-11-12_100-jvmRun1 surefire-20250506141112300_1tmp surefire_0-20250506141112300_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HenrryCoronado\AppData\Local\Temp\surefire2995854966574690021\surefirebooter-20250512183611907_3.jar C:\Users\HenrryCoronado\AppData\Local\Temp\surefire2995854966574690021 2025-05-12T18-36-11_489-jvmRun1 surefire-20250512183611907_1tmp surefire_0-20250512183611907_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\HenrryCoronado\Documents\GitHub\Quality_Assurance\KarateTest\target\test-classes;C:\Users\HenrryCoronado\Documents\GitHub\Quality_Assurance\KarateTest\target\classes;C:\Users\HenrryCoronado\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\HenrryCoronado\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\HenrryCoronado\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\HenrryCoronado\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\HenrryCoronado\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\HenrryCoronado\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\HenrryCoronado\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\HenrryCoronado\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\HenrryCoronado\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\HenrryCoronado\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\HenrryCoronado\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\HenrryCoronado\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\HenrryCoronado\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\HenrryCoronado\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\HenrryCoronado\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\HenrryCoronado\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\HenrryCoronado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\HenrryCoronado\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\HenrryCoronado\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\HenrryCoronado\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\HenrryCoronado\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\HenrryCoronado\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\HenrryCoronado\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\HenrryCoronado\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\HenrryCoronado\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\HenrryCoronado\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\HenrryCoronado\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\HenrryCoronado\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\HenrryCoronado\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\HenrryCoronado\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\HenrryCoronado\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\HenrryCoronado\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\HenrryCoronado\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\HenrryCoronado\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\HenrryCoronado\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\HenrryCoronado\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\HenrryCoronado\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\HenrryCoronado\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\HenrryCoronado\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\HenrryCoronado\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\HenrryCoronado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HenrryCoronado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\HenrryCoronado\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,8 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\HenrryCoronado\AppData\Local\Temp\surefire12345743823086489115\surefirebooter-20250506141112300_3.jar"/>
+    <property name="karate.options" value="--tags @create_pet"/>
+    <property name="surefire.real.class.path" value="C:\Users\HenrryCoronado\AppData\Local\Temp\surefire2995854966574690021\surefirebooter-20250512183611907_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+8-LTS-191"/>
@@ -49,7 +50,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\Studio\23.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\23.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\23.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\23.0\Bpl\Win64;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\dotnet;C:\MinGW\bin;C:\Program Files\nodejs\;C:\oracle\instantclient_19_20;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\FPC\3.2.2\bin\i386-win32\ptop.exe;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jre-1.8;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\Maven\bin;C:\Program Files\Maven\mvn\bin;C:\Program Files\Allure\bin;C:\Users\HenrryCoronado\AppData\Local\Programs\Python\Launcher\;C:\MinGW\bin;C:\Users\HenrryCoronado\AppData\Local\Microsoft\WindowsApps;C:\Users\HenrryCoronado\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2\bin;;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Azure Data Studio\bin;C:\FPC\3.2.2\bin\i386-win32\ptop.exe;C:\Users\HenrryCoronado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\dotnet;C:\Users\HenrryCoronado\AppData\Roaming\npm;C:\Users\HenrryCoronado\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jre-1.8;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\gradle-8.12.1\bin;C:\Program Files\Maven\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\Studio\23.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\23.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\23.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\23.0\Bpl\Win64;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\22.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\dotnet;C:\MinGW\bin;C:\Program Files\nodejs\;C:\oracle\instantclient_19_20;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Git\cmd;C:\FPC\3.2.2\bin\i386-win32\ptop.exe;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jre-1.8;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\Maven\bin;C:\Program Files\Maven\mvn\bin;C:\Program Files\Allure\bin;c:\Users\HenrryCoronado\AppData\Local\Programs\Trae\bin;C:\Users\HenrryCoronado\AppData\Local\Programs\Python\Launcher\;C:\MinGW\bin;C:\Users\HenrryCoronado\AppData\Local\Microsoft\WindowsApps;C:\Users\HenrryCoronado\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2\bin;;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Azure Data Studio\bin;C:\FPC\3.2.2\bin\i386-win32\ptop.exe;C:\Program Files\dotnet;C:\Users\HenrryCoronado\AppData\Roaming\npm;C:\Users\HenrryCoronado\.dotnet\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jre-1.8;C:\Program Files\Java\jre-1.8\bin;C:\Program Files\gradle-8.12.1\bin;C:\Program Files\Maven\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2025.1\bin;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.14+8-LTS-191"/>
@@ -57,31 +58,13 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="testParallel" classname="examples.ExamplesTest" time="9.496">
-    <failure message="status code was: 404, expected: 200, response time in milliseconds: 605, url: https://petstore.swagger.io/v2/pet/2005, response: &#10;{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Pet not found&quot;}&#10;classpath:examples/PetStore/get_pet.feature:8&#10;status code was: 404, expected: 200, response time in milliseconds: 587, url: https://petstore.swagger.io/v2/store/order/10, response: &#10;{&quot;code&quot;:404,&quot;type&quot;:&quot;unknown&quot;,&quot;message&quot;:&quot;Order Not Found&quot;}&#10;classpath:examples/Store/delete_order.feature:8&#10;status code was: 404, expected: 200, response time in milliseconds: 626, url: https://petstore.swagger.io/v2/store/order/10, response: &#10;{&quot;code&quot;:1,&quot;type&quot;:&quot;error&quot;,&quot;message&quot;:&quot;Order not found&quot;}&#10;classpath:examples/Store/get_order.feature:8 ==&gt; expected: &lt;0&gt; but was: &lt;3&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 404, expected: 200, response time in milliseconds: 605, url: https://petstore.swagger.io/v2/pet/2005, response: 
-{"code":1,"type":"error","message":"Pet not found"}
-classpath:examples/PetStore/get_pet.feature:8
-status code was: 404, expected: 200, response time in milliseconds: 587, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":404,"type":"unknown","message":"Order Not Found"}
-classpath:examples/Store/delete_order.feature:8
-status code was: 404, expected: 200, response time in milliseconds: 626, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":1,"type":"error","message":"Order not found"}
-classpath:examples/Store/get_order.feature:8 ==> expected: <0> but was: <3>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-    <system-out><![CDATA[14:11:14.360 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-14:11:14.369 [main] DEBUG com.intuit.karate.Suite - waiting for 8 features to complete
-14:11:15.601 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:15.961 [main] DEBUG com.intuit.karate - request:
+  <testcase name="testParallel" classname="examples.ExamplesTest" time="10.13">
+    <system-out><![CDATA[18:36:14.642 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @create_pet
+18:36:16.801 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+18:36:16.815 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1747089376801
+18:36:16.834 [main] DEBUG com.intuit.karate.Suite - waiting for 8 features to complete
+18:36:19.645 [main] INFO  com.intuit.karate - karate.env system property was: null 
+18:36:20.535 [main] DEBUG com.intuit.karate - request:
 1 > POST https://petstore.swagger.io/v2/pet
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 141
@@ -91,9 +74,9 @@ classpath:examples/Store/get_order.feature:8 ==> expected: <0> but was: <3>
 1 > Accept-Encoding: gzip,deflate
 {"id":2005,"category":{"id":1,"name":"perro"},"name":"PJ","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
 
-14:11:16.996 [main] DEBUG com.intuit.karate - response time in milliseconds: 1035
+18:36:22.134 [main] DEBUG com.intuit.karate - response time in milliseconds: 1582
 1 < 200
-1 < Date: Tue, 06 May 2025 18:11:18 GMT
+1 < Date: Mon, 12 May 2025 22:36:20 GMT
 1 < Content-Type: application/json
 1 < Transfer-Encoding: chunked
 1 < Connection: keep-alive
@@ -105,235 +88,16 @@ classpath:examples/Store/get_order.feature:8 ==> expected: <0> but was: <3>
 
 ---------------------------------------------------------
 feature: classpath:examples/PetStore/create_pet.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 1,3873
+scenarios:  1 | passed:  1 | failed:  0 | time: 2,4199
 ---------------------------------------------------------
 
-14:11:17.666 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 8 (7 remaining) classpath:examples/PetStore/create_pet.feature
-14:11:17.677 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:17.690 [main] DEBUG com.intuit.karate - request:
-1 > DELETE https://petstore.swagger.io/v2/pet/2005
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-
-
-14:11:18.278 [main] DEBUG com.intuit.karate - response time in milliseconds: 588
-1 < 200
-1 < Date: Tue, 06 May 2025 18:11:19 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"code":200,"type":"unknown","message":"2005"}
-
----------------------------------------------------------
-feature: classpath:examples/PetStore/delete_pet.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 0,6140
----------------------------------------------------------
-
-14:11:18.349 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 8 (6 remaining) classpath:examples/PetStore/delete_pet.feature
-14:11:18.356 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:18.356 [main] DEBUG com.intuit.karate - request:
-1 > GET https://petstore.swagger.io/v2/pet/2005
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-
-
-14:11:18.961 [main] DEBUG com.intuit.karate - response time in milliseconds: 605
-1 < 404
-1 < Date: Tue, 06 May 2025 18:11:19 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"code":1,"type":"error","message":"Pet not found"}
-
-14:11:18.961 [main] ERROR com.intuit.karate - classpath:examples/PetStore/get_pet.feature:8
-Then status 200
-status code was: 404, expected: 200, response time in milliseconds: 605, url: https://petstore.swagger.io/v2/pet/2005, response: 
-{"code":1,"type":"error","message":"Pet not found"}
-classpath:examples/PetStore/get_pet.feature:8
----------------------------------------------------------
-feature: classpath:examples/PetStore/get_pet.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0,6120
----------------------------------------------------------
-
-14:11:19.054 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 8 (5 remaining) classpath:examples/PetStore/get_pet.feature
-14:11:19.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:19.072 [main] DEBUG com.intuit.karate - request:
-1 > PUT https://petstore.swagger.io/v2/pet
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 140
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-{"id":2005,"category":{"id":1,"name":"gato"},"name":"JP","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
-
-14:11:19.665 [main] DEBUG com.intuit.karate - response time in milliseconds: 591
-1 < 200
-1 < Date: Tue, 06 May 2025 18:11:20 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"id":2005,"category":{"id":1,"name":"gato"},"name":"JP","photoUrls":["string"],"tags":[{"id":1,"name":"perro negro"}],"status":"available"}
-
----------------------------------------------------------
-feature: classpath:examples/PetStore/update_pet.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 0,5999
----------------------------------------------------------
-
-14:11:19.786 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 8 (4 remaining) classpath:examples/PetStore/update_pet.feature
-14:11:19.795 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:19.802 [main] DEBUG com.intuit.karate - request:
-1 > DELETE https://petstore.swagger.io/v2/store/order/10
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-
-
-14:11:20.390 [main] DEBUG com.intuit.karate - response time in milliseconds: 587
-1 < 404
-1 < Date: Tue, 06 May 2025 18:11:21 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"code":404,"type":"unknown","message":"Order Not Found"}
-
-14:11:20.390 [main] ERROR com.intuit.karate - classpath:examples/Store/delete_order.feature:8
-Then status 200
-status code was: 404, expected: 200, response time in milliseconds: 587, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":404,"type":"unknown","message":"Order Not Found"}
-classpath:examples/Store/delete_order.feature:8
----------------------------------------------------------
-feature: classpath:examples/Store/delete_order.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0,5927
----------------------------------------------------------
-
-14:11:20.438 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 5 of 8 (3 remaining) classpath:examples/Store/delete_order.feature
-14:11:20.445 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:20.448 [main] DEBUG com.intuit.karate - request:
-1 > GET https://petstore.swagger.io/v2/store/inventory
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-
-
-14:11:21.029 [main] DEBUG com.intuit.karate - response time in milliseconds: 579
-1 < 200
-1 < Date: Tue, 06 May 2025 18:11:22 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"totvs":2,"sold":19,"string":584,"unavailable":1,"pending":11,"available":294,"weisskeiner1":1,"packing":1,"utique":1,"comminor":1,"peric":16,"1":1,"Sold":1,"invalid_status":1,"fdghbdfghgdfhfgdhdfg":2}
-
----------------------------------------------------------
-feature: classpath:examples/Store/get_inventary.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 0,5854
----------------------------------------------------------
-
-14:11:21.067 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 8 (2 remaining) classpath:examples/Store/get_inventary.feature
-14:11:21.067 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:21.067 [main] DEBUG com.intuit.karate - request:
-1 > GET https://petstore.swagger.io/v2/store/order/10
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-
-
-14:11:21.693 [main] DEBUG com.intuit.karate - response time in milliseconds: 626
-1 < 404
-1 < Date: Tue, 06 May 2025 18:11:22 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"code":1,"type":"error","message":"Order not found"}
-
-14:11:21.693 [main] ERROR com.intuit.karate - classpath:examples/Store/get_order.feature:8
-Then status 200
-status code was: 404, expected: 200, response time in milliseconds: 626, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":1,"type":"error","message":"Order not found"}
-classpath:examples/Store/get_order.feature:8
----------------------------------------------------------
-feature: classpath:examples/Store/get_order.feature
-scenarios:  1 | passed:  0 | failed:  1 | time: 0,6221
----------------------------------------------------------
-
-14:11:21.736 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 7 of 8 (1 remaining) classpath:examples/Store/get_order.feature
-14:11:21.736 [main] INFO  com.intuit.karate - karate.env system property was: null 
-14:11:21.744 [main] DEBUG com.intuit.karate - request:
-1 > POST https://petstore.swagger.io/v2/store/order
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 107
-1 > Host: petstore.swagger.io
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.14)
-1 > Accept-Encoding: gzip,deflate
-{"id":10,"petId":2005,"quantity":5,"shipDate":"2025-05-05T23:04:23.928Z","status":"placed","complete":true}
-
-14:11:22.401 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
-1 < 200
-1 < Date: Tue, 06 May 2025 18:11:23 GMT
-1 < Content-Type: application/json
-1 < Transfer-Encoding: chunked
-1 < Connection: keep-alive
-1 < Access-Control-Allow-Origin: *
-1 < Access-Control-Allow-Methods: GET, POST, DELETE, PUT
-1 < Access-Control-Allow-Headers: Content-Type, api_key, Authorization
-1 < Server: Jetty(9.2.9.v20150224)
-{"id":10,"petId":2005,"quantity":5,"shipDate":"2025-05-05T23:04:23.928+0000","status":"placed","complete":true}
-
----------------------------------------------------------
-feature: classpath:examples/Store/post_order.feature
-scenarios:  1 | passed:  1 | failed:  0 | time: 0,6660
----------------------------------------------------------
-
-14:11:22.453 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 8 of 8 (0 remaining) classpath:examples/Store/post_order.feature
+18:36:23.467 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 8 (7 remaining) classpath:examples/PetStore/create_pet.feature
 Karate version: 1.5.0
 ======================================================
-elapsed:   9,00 | threads:    1 | thread time: 5,68 
-features:     8 | skipped:    0 | efficiency: 0,63
-scenarios:    8 | passed:     5 | failed: 3
+elapsed:   8,89 | threads:    1 | thread time: 2,42 
+features:     1 | skipped:    7 | efficiency: 0,27
+scenarios:    1 | passed:     1 | failed: 0
 ======================================================
->>> failed features:
-status code was: 404, expected: 200, response time in milliseconds: 605, url: https://petstore.swagger.io/v2/pet/2005, response: 
-{"code":1,"type":"error","message":"Pet not found"}
-classpath:examples/PetStore/get_pet.feature:8
-status code was: 404, expected: 200, response time in milliseconds: 587, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":404,"type":"unknown","message":"Order Not Found"}
-classpath:examples/Store/delete_order.feature:8
-status code was: 404, expected: 200, response time in milliseconds: 626, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":1,"type":"error","message":"Order not found"}
-classpath:examples/Store/get_order.feature:8
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.5.0
 file:///C:/Users/HenrryCoronado/Documents/GitHub/Quality_Assurance/KarateTest/target/karate-reports/karate-summary.html

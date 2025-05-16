@@ -1,25 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: examples.ExamplesTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.539 s <<< FAILURE! - in examples.ExamplesTest
-examples.ExamplesTest.testParallel  Time elapsed: 9.496 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: 
-status code was: 404, expected: 200, response time in milliseconds: 605, url: https://petstore.swagger.io/v2/pet/2005, response: 
-{"code":1,"type":"error","message":"Pet not found"}
-classpath:examples/PetStore/get_pet.feature:8
-status code was: 404, expected: 200, response time in milliseconds: 587, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":404,"type":"unknown","message":"Order Not Found"}
-classpath:examples/Store/delete_order.feature:8
-status code was: 404, expected: 200, response time in milliseconds: 626, url: https://petstore.swagger.io/v2/store/order/10, response: 
-{"code":1,"type":"error","message":"Order not found"}
-classpath:examples/Store/get_order.feature:8 ==> expected: <0> but was: <3>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at examples.ExamplesTest.testParallel(ExamplesTest.java:15)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.193 s - in examples.ExamplesTest

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"examples\/PetStore\/create_pet[1:6]","start":1747087366175,"end":1747087368733,"title":"examples\/PetStore\/create_pet[1:6] 18:02:46.175-18:02:48.733"},{"id":2,"group":1,"content":"examples\/PetStore\/delete_pet[1:5]","start":1747087370065,"end":1747087370640,"title":"examples\/PetStore\/delete_pet[1:5] 18:02:50.065-18:02:50.640"},{"id":3,"group":1,"content":"examples\/PetStore\/get_pet[1:5]","start":1747087370827,"end":1747087371426,"title":"examples\/PetStore\/get_pet[1:5] 18:02:50.827-18:02:51.426","className":"failed"},{"id":4,"group":1,"content":"examples\/PetStore\/update_pet[1:5]","start":1747087371626,"end":1747087372353,"title":"examples\/PetStore\/update_pet[1:5] 18:02:51.626-18:02:52.353"},{"id":5,"group":1,"content":"examples\/Store\/delete_order[1:5]","start":1747087372705,"end":1747087373278,"title":"examples\/Store\/delete_order[1:5] 18:02:52.705-18:02:53.278","className":"failed"},{"id":6,"group":1,"content":"examples\/Store\/get_inventary[1:4]","start":1747087373439,"end":1747087373996,"title":"examples\/Store\/get_inventary[1:4] 18:02:53.439-18:02:53.996"},{"id":7,"group":1,"content":"examples\/Store\/get_order[1:5]","start":1747087374118,"end":1747087374685,"title":"examples\/Store\/get_order[1:5] 18:02:54.118-18:02:54.685","className":"failed"},{"id":8,"group":1,"content":"examples\/Store\/post_order[1:5]","start":1747087374766,"end":1747087375329,"title":"examples\/Store\/post_order[1:5] 18:02:54.766-18:02:55.329"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

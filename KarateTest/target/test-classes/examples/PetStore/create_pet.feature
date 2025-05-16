@@ -1,3 +1,4 @@
+@create_pet
 Feature: crear mascota feature
   Background:
     * url baseUrl
